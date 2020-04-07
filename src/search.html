@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="css/search.css">
+    <script src="js/search.js"></script>
+</head>
+<body>
+<div id="wrapper">
+    <header><h1>Image Gallery</h1></header>
+    <div id="navigation">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="browse.html">Browse</a></li>
+            <li id="mark"><a href="search.html">Search</a></li>
+            <li><a>My Account</a>
+                <ul>
+                    <li><a href="upload.html">
+                        <img src="images/upload.png" alt="upload" width="20" height="20">
+                        Upload</a>
+                    </li>
+                    <li><a href="photo.html">
+                        <img src="images/picture.png" alt="pictures" width="20" height="20">
+                        My Photo</a>
+                    </li>
+                    <li><a href="favorite.html">
+                        <img src="images/favorite.png" alt="favorite" width="20" height="20">
+                        My Favorite</a></li>
+                    <li><a href="index.html">
+                        <img src="images/login.png" alt="login" width="20" height="20">
+                        Log in</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <nav>
+        <div id="searchByTitle">
+            <input type="text" placeholder="filter by title" name="" id=" " value=""/>
+            <button onclick="controlDIV()">Search</button>
+        </div>
+        <div id="searchByDescription">
+            <textarea name="" id="" cols="15" rows="6" placeholder="filter by description"></textarea>
+            <button onclick="controlDIV()">Search</button>
+        </div>
+    </nav>
+
+    <main id="main">
+        <div>
+            <div class="photo"><a href="introduction.html">
+                <img src="images/home2.jpg" alt="Emirates Stadium" width="225" height="168">
+            </a></div>
+            <div class="intro">
+                <p>
+                <h4>Emirates Stadium</h4>
+                Emirates Stadium, also translated as Emirates Stadium or Amir stadium, is the home of Arsenal in England
+                Football Super League, which can accommodate more than 60000 people. The stadium was officially opened
+                in 2006-07 season.</p>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div>
+            <div class="photo"><a href="introduction.html">
+                <img src="images/home3.jpg" alt="Emirates Stadium" width="225" height="168">
+            </a></div>
+            <div class="intro">
+                <p>
+                <h4>The American Scene</h4>
+                American Travels: now it is possible to correctly evaluate the impact of travel on Alexei de
+                Tocqueville's political and sociological thoughts. His study of various nationalities and their
+                systems
+                contributed to his works and all his political actions. Therefore, his travel diary should occupy an
+                important position in his works. Just as Aristotle wrote at the end of Greek classical times, Bodin
+                conceived the six books of the Republic in the early modern times, Montesquieu published the spirit
+                of
+                law at the end of absolute monarchy in France, and Tocqueville wrote his political philosophy in a
+                changing era. It was during this period that the consequences of industrialization in the 19th
+                century
+                began to emerge; social classes, the state and all human life were being reshaped in a huge melting
+                pot.</p>
+            </div>
+        </div>
+
+
+
+        <div id="page">
+            <ul>
+                <li><a href="#">«</a></li>
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">»</a></li>
+            </ul>
+        </div>
+    </main>
+
+    <footer>
+        <ul>
+            <li><img src="images/footer1phone.png" width="20" height="20">
+                17705826551
+            </li>
+            <li><img src="images/footer2qq.png" width="20" height="20">
+                1726778203
+            </li>
+            <li><img src="images/footer3wechat.png" width="20" height="20">
+                17705826551
+            </li>
+            <li><img src="images/footer4address.png" width="20" height="20">
+                universe-earth
+            </li>
+            <img src="images/QR%20code.png" width="40" height="40" id="footer">
+            <p>Copyright &copy; 2020 HanShu</p>
+        </ul>
+        <div>
+            <a href="javascript:location.reload();">
+                <img src="images/F5.png" width="20" height="20">
+            </a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#top" target="_self">
+                <img src="images/backToTop.png" width="20" height="20">
+            </a>
+        </div>
+    </footer>
+</div>
+
+</body>
+</html>
